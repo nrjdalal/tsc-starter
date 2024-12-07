@@ -9,10 +9,10 @@
     "email": "admin@nrjdalal.com"
   },
   "scripts": {
-    "build": "tsup",
     "dev": "tsup --watch",
-    "prepare": "simple-git-hooks",
-    "release": "changeset version"
+    "build": "tsup",
+    "prepare": "if [ \"$NODE_ENV\" != \"production\" ]; then simple-git-hooks; fi",
+    "publish:latest": "NODE_ENV=production changeset publish"
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged",
