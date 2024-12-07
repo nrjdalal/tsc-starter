@@ -1,5 +1,13 @@
 # tsc-starter
 
+## 0.0.5
+
+### Patch Changes
+
+- [`5ef1f16`](https://github.com/nrjdalal/tsc-starter/commit/5ef1f167bc1beac53985c48e897bfcc7638d7377) Thanks [@nrjdalal](https://github.com/nrjdalal)! - updated docs
+
+- [`d0ac576`](https://github.com/nrjdalal/tsc-starter/commit/d0ac576451632b7478bf80e9b444ad856ac1325d) Thanks [@nrjdalal](https://github.com/nrjdalal)! - newer version
+
 ## 0.0.4
 
 ### Patch Changes
