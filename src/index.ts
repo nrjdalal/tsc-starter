@@ -1,8 +1,6 @@
 import { generateId, type GenerateId } from "@/utils/generate-id"
 import { utcDate, type UtcDate } from "@/utils/utc-date"
 
-// Generate ID and UTC date
-
 const date = utcDate()
 const id = generateId(date)
 
