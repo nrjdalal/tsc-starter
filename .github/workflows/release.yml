@@ -31,18 +31,16 @@ jobs:
       - name: Build
         run: bun run build
 
-      # Check if TOKENS are configured
       - id: CHECK_TOKENS
-        name: Check Tokens
+        name: Check if TOKENS are configured
         run: |
           if [ -z "${{ secrets.GITHUB_TOKEN }}" ] || [ -z "${{ secrets.NPM_TOKEN }}" ]; then
             echo "TOKENS are not configured. Skipping changeset actions."
             echo "NOT_FOUND=true" >> $GITHUB_OUTPUT
           fi
 
-      # Create a release pull request or publish to npm
       - id: changesets
-        name: Changesets Activity
+        name: Create a release pull request or publish to npm
         if: steps.CHECK_TOKENS.outputs.NOT_FOUND != 'true'
         uses: changesets/action@v1
         with:
