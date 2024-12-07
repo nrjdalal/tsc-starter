@@ -1,5 +1,11 @@
 # tsc-starter
 
+## 0.0.4
+
+### Patch Changes
+
+- [`32775f0`](https://github.com/nrjdalal/tsc-starter/commit/32775f0711a1e4b39ffbfb21e6859d7d03f49f6c) Thanks [@nrjdalal](https://github.com/nrjdalal)! - enhance README.md
+
 ## 0.0.3
 
 ### Patch Changes
