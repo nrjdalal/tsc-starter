@@ -18,9 +18,9 @@
     "pre-commit": "npx lint-staged",
     "commit-msg": "npx commitlint --edit $1"
   },
-  "repository": "nrjdalal/typescript-starter",
-  "homepage": "https://github.com/nrjdalal/typescript-starter#readme",
-  "bugs": "https://github.com/nrjdalal/typescript-starter/issues",
+  "repository": "nrjdalal/tsc-starter",
+  "homepage": "https://github.com/nrjdalal/tsc-starter#readme",
+  "bugs": "https://github.com/nrjdalal/tsc-starter/issues",
   "keywords": [
     "boilerplate",
     "changesets",
